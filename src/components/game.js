@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getInitialMessage } from 'actions/initial-message';
+import { Canvas } from './layout/canvas';
 
 class Game extends Component {
   componentDidMount () {
@@ -8,10 +9,8 @@ class Game extends Component {
   }
 
   render () {
-    const { message } = this.props;
-
     return (
-      <h1>{message}</h1>
+      <Canvas />
     );
   }
 }
