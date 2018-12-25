@@ -1,0 +1,10 @@
+@import 'styles/colors.scss';
+
+.ground {
+  fill: $color-ground;
+}
+
+.ground-divider {
+  stroke: $color-ground-divider;
+  stroke-width: 3px;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import propTypes from 'prop-types';
+import { DefaultWidth } from 'utils/constants';
 import './sky.scss';
 
 class Sky extends Component {
@@ -24,7 +25,7 @@ Sky.propTypes = {
 
 Sky.defaultProps = {
   gameHeight: 1200,
-  skyWidth: 5000,
+  skyWidth: DefaultWidth,
 };
 
 export {

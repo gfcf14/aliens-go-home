@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sky } from './sky';
+import { Ground } from './ground';
 import './canvas.scss';
 
 const Canvas = () => {
@@ -13,6 +14,7 @@ const Canvas = () => {
       viewBox={viewBox}
     >
       <Sky />
+      <Ground />
       <circle cx={0} cy={0} r={50} />
     </svg>
   );
