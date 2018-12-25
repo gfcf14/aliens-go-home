@@ -1,0 +1,3 @@
+export const INITIAL = {
+  INITIAL_MESSAGE: 'INITIAL_MESSAGE',
+};
